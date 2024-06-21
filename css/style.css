@@ -28,6 +28,9 @@ div#main_content table td,th{
     text-align: center;
     font-size: 13px;
 }
+div#main_content table tbody td:not(:first-child){
+    text-align: left;
+}
 div#main_content table th{
     padding: 5px;
 }
